@@ -1,0 +1,31 @@
+{
+  "name": "SlackBotOne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --coverage --verbose",
+    "watch": "jest --watchAll --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rearo43/slack_Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rearo43/slack_Bot/issues"
+  },
+  "homepage": "https://github.com/Rearo43/slack_Bot#readme",
+  "dependencies": {
+    "@slack/bolt": "^2.3.0",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.28.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
